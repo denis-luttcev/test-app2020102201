@@ -1,0 +1,21 @@
+{
+    "name": "app/test-app2020102201",
+    "description": "Test Application 2020102201",
+    "authors": [
+        {
+            "name": "Denis Luttcev",
+            "email": "denis.luttcev@gmail.com"
+        }
+    ],
+    "require": {
+            "php": ">=7.3"
+	},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/app-key.php"
+        ]
+    }
+}
